@@ -22,5 +22,37 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 10;
+}
+
+main {
+    width: 400px;
+}
+
+main image {
+    width: 100px;
+    height: auto;
+    ...
+}
+
+aside {
+    width: 15rem;
+    margin: 0.5rem;
+    border: 1px solid white;
+    padding: 1rem;
+    background-color: #f1f51c;
+    color: #333;
+}
+
+aside image {
+    width: 100px;
+    height: auto;
+}
+
+padding: 0;
+
+footer {
+    margin-top: 10px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
