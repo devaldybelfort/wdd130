@@ -25,8 +25,9 @@ footer {
     margin: 0 auto;
 }
 
-h1 {
-    font-family: var(--body-font);
+h1,
+h2 {
+    font-family: var(--heading-font);
     color: var(--tex-color);
 }
 
@@ -52,7 +53,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -63,7 +64,15 @@ h1 {
     color: #fff;
 }
 
+.hero article {
+    position: absolute;
+}
+
 .hero article img {
     float: right;
     width: 125px;
+}
+
+footer {
+    background-color: var(--accent2-color);
 }
