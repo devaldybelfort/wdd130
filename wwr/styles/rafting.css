@@ -2,7 +2,7 @@
     --primary-color: gray;
     --secondary-color: red;
     --accent1-color: blue;
-    --accent2-color: green;
+    --accent2-color: rgb(242, 245, 242);
     --heading-font: "Times New Roman", serif;
     --body-font: Arial, serif;
 }
@@ -35,8 +35,8 @@ nav,
 p,
 section,
 article {
-    margin: 12px;
-    padding: 6px;
+    margin: 16px;
+    padding: 8px;
 }
 
 .socialmedia a {
