@@ -1,8 +1,10 @@
 :root {
-    --primary-color: rgb(184, 182, 182);
-    --secondary-color: lightblue;
-    --tex-color: black;
-    --body-font: "times-new-roman", serif;
+    --primary-color: gray;
+    --secondary-color: red;
+    --accent1-color: blue;
+    --accent2-color: green;
+    --heading-font: "Times New Roman", serif;
+    --body-font: Arial, serif;
 }
 
 header {
@@ -23,7 +25,6 @@ footer {
     margin: 0 auto;
 }
 
-h1,
 h1 {
     font-family: var(--body-font);
     color: var(--tex-color);
