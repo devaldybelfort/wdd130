@@ -7,6 +7,12 @@
     --body-font: Arial, serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: var(--primary-color);
     margin: 0;
