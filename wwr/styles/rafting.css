@@ -47,6 +47,7 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    background-color: var(--accent1-color);
 }
 
 .hero {
@@ -66,7 +67,7 @@ article {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: rgb(224, 125, 11);
+    background-color: var(--secondary-color);
     color: #fff;
 }
 
