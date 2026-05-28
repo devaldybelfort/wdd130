@@ -20,6 +20,11 @@ header {
     box-sizing: border-box;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+}
+
 body {
     font-family: var(--body-font);
 }
@@ -35,6 +40,11 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--tex-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 nav,
