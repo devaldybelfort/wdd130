@@ -1,6 +1,6 @@
 :root {
     --primary-color: gray;
-    --secondary-color: black;
+    --secondary-color: rgb(252, 238, 238);
     --accent1-color: rgb(37, 37, 83);
     --heading-font: "Times New Roman", serif;
     --body-font: Arial, serif;
@@ -91,5 +91,5 @@ article {
 }
 
 footer {
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
 }
