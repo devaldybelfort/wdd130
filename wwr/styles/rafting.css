@@ -1,8 +1,7 @@
 :root {
     --primary-color: gray;
     --secondary-color: black;
-    --accent1-color: blue;
-    --accent2-color: rgb(18, 50, 80);
+    --accent1-color: rgb(37, 37, 83);
     --heading-font: "Times New Roman", serif;
     --body-font: Arial, serif;
 }
@@ -31,6 +30,10 @@ main,
 footer {
     width: 400px;
     margin: 0 auto;
+}
+
+.Company Information {
+    text-align: center;
 }
 
 h1,
