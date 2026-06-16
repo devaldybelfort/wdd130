@@ -160,3 +160,9 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
