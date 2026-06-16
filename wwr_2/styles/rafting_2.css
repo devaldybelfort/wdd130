@@ -1,0 +1,95 @@
+:root {
+    --primary-color: gray;
+    --secondary-color: rgb(252, 238, 238);
+    --accent1-color: rgb(138, 138, 255);
+    --heading-font: "Times New Roman", serif;
+    --body-font: Arial, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 170px 1fr;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+header,
+main,
+footer {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.Company Information {
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--tex-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    background-color: var(--accent1-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.hero article {
+    position: absolute;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+footer {
+    background-color: var(--accent1-color);
+}
