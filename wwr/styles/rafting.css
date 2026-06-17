@@ -118,7 +118,7 @@ button {
 .trip-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 1px;
 }
 
 table {
@@ -165,4 +165,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20.5px;
+}
+
+h3 {
+    text-align: center;
 }
